@@ -1,0 +1,87 @@
+
+
+body {
+    background-color: aquamarine;
+}
+
+#banner {
+    height: 400px;
+    background-image: url(https://vinteconto.sfo2.cdn.digitaloceanspaces.com/listings/369659/9c43dfbc71da2dac9ba969d60d188893.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 500px) {
+    
+    .p-main {
+        font-size: 16px;
+      }
+
+    #banner {
+        height: 300px;
+        background-image: url(https://i.ytimg.com/vi/UlU2Cto9hoM/maxresdefault.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+@media (min-width: 320) and (max-width: 480)  {
+    
+    .p-main {
+        font-size: 16px;
+      }
+
+    #banner {
+        height: 350px;
+        background-image: url(https://marketplace.canva.com/EAFf6spg1IA/2/0/1600w/canva-banner-de-youtube-gamer-neon-azul-RbaAwn1GHvE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+/* 
+@media (min-width: 480) and (max-width: 760)  {
+    
+    #banner {
+        height: 350px;
+        background-image: url(https://marketplace.canva.com/EAFf6spg1IA/2/0/1600w/canva-banner-de-youtube-gamer-neon-azul-RbaAwn1GHvE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media (min-width: 760) and (max-width: 1024)  {
+    
+    #banner {
+        height: 350px;
+        background-image: url(https://marketplace.canva.com/EAFf6spg1IA/2/0/1600w/canva-banner-de-youtube-gamer-neon-azul-RbaAwn1GHvE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+} */
+
+
+@media (min-width: 1200px)  {
+    
+    #banner {
+        height: 350px;
+        background-image: url(https://marketplace.canva.com/EAFf6spg1IA/2/0/1600w/canva-banner-de-youtube-gamer-neon-azul-RbaAwn1GHvE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .p-main {
+      font-size: 23px;
+      font-weight: bold;
+      color: blue;
+    }
+    
+} 

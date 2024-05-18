@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+    background-color: gold;
+}
+
+button {
+    font-family: "Merriweather", serif;
+}
+
+* {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+#title-dojo {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+
+.btn-agregar {
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+/* p {
+    color: blue;
+    font-size: 20px;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+} */
+
+
+p, h3 {
+    color: blue;
+    font-size: 20px;
+}
+
+
+.subtitle-dojo {
+    color: red;
+    background-color: gray;
+}
+
+
+h4.subtitle-dojo {
+    color: aqua;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+
+.btn-cancelar {
+    padding: 20px;
+    background-color: purple;
+}
+
+
+div.box-dojo div.container > button.btn-cancelar {
+    padding: 10px 20px;
+    background-color: black;
+    color: yellow
+}

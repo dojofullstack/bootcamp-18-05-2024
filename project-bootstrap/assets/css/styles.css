@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.nav-link:hover {
+    color: aqua !important;
+    border-bottom: 3px solid aqua !important;
+}
+
+div.carousel-item > img {
+    height: 850px;
+}
+
+
+.icono-card {
+    width: 50px;
+    height: 50px;
+}
+
+.card-clinica:hover {
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+}
+
+.card-image-clinica > img {
+    height: 450px;
+    top: -30px;
+}
+
+.bi-whatsapp{
+    font-size: 50px;
+    color: green;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.wasap-btn {
+    z-index: 9999;
+    height: 50px;
+    width: 50px;
+}

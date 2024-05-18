@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header>
+        <h1>Aprendiendo Multimedia con Dojo</h1>
+        <h2>version 1.0.0</h2>
+    </header>
+
+    <main>
+
+        <h2>Imaneges</h2>
+
+        <div class="container">
+
+                <!-- el atrub src acepta una ruta asbsoluta o reltativa -->
+                <img  height="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQyEP0w6nqKf3CIN7A4PxIMMwC8X_UHz6xI47AH2j4g&s" />
+
+                <img alt="mexico cancunc" title="mexico cancunc" width="200px" src="/assets/media/imagenes/images.jpeg"/>
+
+                <img  alt="" title="" src="https://hips.hearstapps.com/hmg-prod/images/gato-1603975456.gif"/>
+        </div>
+        
+        <hr/>
+
+        <h2>Video Tag</h2>
+
+        <video width="450px" controls muted autoplay>
+            <source  src="https://cdn.pixabay.com/video/2021/02/17/65438-514139134_large.mp4" />
+        </video>
+
+
+        <h2>Audio Tag</h2>
+
+        <audio controls>
+            <source src="https://cdn.pixabay.com/audio/2023/06/15/audio_743bb6f015.mp3" />
+        </audio>
+
+
+        <h2>Documentos PDF</h2>
+
+        <embed src="https://plataforma-dojopy-media.s3.amazonaws.com/temario-pdf/BOOTCAMP-FULLSTACK-2024-flex_compressed.pdf" width="500" height="375" 
+        type="application/pdf">
+
+        <hr/>
+
+        <h2>Iframe HTML</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.311906395737!2d-77.07166848806274!3d-11.943990228451351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1c1512bb1a5%3A0xdc9cbf193fa9af0e!2sUniversidad%20Cient%C3%ADfica%20del%20Sur!5e0!3m2!1ses-419!2spe!4v1713111188158!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8qJAlZkCGQk?si=d5pA8J-M6wB5Tqrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+
+    </main>
+
+<!-- 
+    <script>
+        alert("tu sesion ha expirado, inicia sesion nuevamente");
+        prompt("ingresa tu contrasena");
+    </script> -->
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v19.0" nonce="sE45TfdG"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+
+
+img {
+    width: 100%;
+    border: 20px solid brown;
+    border-radius: 50px;
+}
+
+
+
+
+
+li {
+    font-size: 20px;
+    color: rgb(230, 99, 24);
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+p {
+    color: green;
+    line-height: 45px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aqua;
+}
