@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 
-ngrok-v3-stable-windows-amd64 (1)/ngrok.exe
+ngrok-v3-stable-windows-amd64/ngrok.exe
 
 assets/media
