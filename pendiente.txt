@@ -1,0 +1,15 @@
+
+
+
+
+// ciclos (for, while)
+// breakpoints
+
+
+// funciones
+tipos de funciones
+callbacks
+
+
+// iteradores
+forEach() y los map()
