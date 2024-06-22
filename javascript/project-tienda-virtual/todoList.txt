@@ -1,0 +1,22 @@
+
+
+
+-  datos y las acciones
+
+"datos"
+- nombreTienda = ""
+- logotipoTienda = ""
+- BanerTienda = ""
+- catalogoProduct = []
+
+
+"acciones"
+- crearTienda() - completado
+- crearProductos() - completado
+- mostrarProductos() - completado
+- almacenarDatos() - completado
+- Login - cookies (APIS) 
+- Buscador de productos (APIS)
+- EliminarProductos()
+- Agregar productos al carrito
+- Vista Carrito
