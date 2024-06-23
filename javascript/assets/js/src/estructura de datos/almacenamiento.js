@@ -114,4 +114,4 @@ function buscarCookie(buscarCookie){
 
 
 
-buscarCookie("dojoCookie")
+buscarCookie("token")

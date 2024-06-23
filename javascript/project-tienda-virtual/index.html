@@ -16,6 +16,9 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>       
+
     </head>
 
     <body>
@@ -23,7 +26,7 @@
             <!-- place navbar here -->
 
             <nav
-                class="navbar navbar-expand-sm navbar-dark bg-primary"
+                class="navbar navbar-expand-sm navbar-dark bg-primary px-5"
             >
                 <a class="navbar-brand" href="#">
                     <img height="60px" id="logo-img" src="" alt="" class="rounded rounded-lg">
@@ -50,37 +53,65 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="dropdownId"
-                                data-bs-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                                >Dropdown</a
-                            >
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
-                        </li>
+                    
                     </ul>
 
                     <button  data-bs-toggle="modal" data-bs-target="#modal-create-tienda" onclick="" id="btm-tienda-create" class="btn btn-dark mx-3 btn-lg">
                         Crear Tienda
                     </button>
 
-                    <form class="d-flex my-2 my-lg-0">
+                    <div class="d-flex my-2 my-lg-0">
                         <input
                             class="form-control me-sm-2"
                             type="text"
-                            placeholder="Search"
+                            placeholder="Buscar.."
+                            id="input-search"
                         />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                            Buscar productos
+
+                        <button onclick="tiendaDojoPc.searchProduct()" class="btn btn-outline-dark my-2 my-sm-0" >
+                            Buscar
                         </button>
-                    </form>
+
+                    </div>
+
+
+                    <!-- perfil del usuario -->
+                    <div id="perfil-active" style="display: none;">
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="dropdownId"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >
+                                    <img id="user-img" height="55px" src="" alt="">
+                                    <span class="fs-3 text-white" id="user-name"></span>
+                                    </a
+                                >
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#">Perfil</a>
+                                    <a class="dropdown-item" href="#">Mis pedidos</a>
+                                    <a onclick="tiendaDojoPc.closeLogin()" class="dropdown-item" href="#">Cerrar sesion</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- perfil del usuario -->
+
+                    
+                    <div id="btn-login">
+                        <a href="login.html">
+                            <button class="btn btn-danger ms-3">
+                                Login
+                            </button>
+                        </a>
+                    </div>
+                 
+                 
+
                 </div>
             </nav>
             
@@ -149,7 +180,7 @@
                     Crear Producto
                 </button>
 
-                <div id="catalogo-product" class="m-3 d-flex flex-wrap gap-3">
+                <div id="catalogo-product" class="m-3 d-flex flex-wrap gap-3 justify-content-center">
 
 
                 </div>
@@ -377,5 +408,10 @@
 
 
         <script src="/project-tienda-virtual/js/app.js"></script>
+
+        <script>
+            home();
+        </script>
+
     </body>
 </html>

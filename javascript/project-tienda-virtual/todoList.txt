@@ -15,8 +15,14 @@
 - crearProductos() - completado
 - mostrarProductos() - completado
 - almacenarDatos() - completado
-- Login - cookies (APIS) 
-- Buscador de productos (APIS)
-- EliminarProductos()
+- Login - cookies (APIS) - completado
+- Buscador de productos (APIS) - completado
+- EliminarProductos() 
 - Agregar productos al carrito
 - Vista Carrito
+
+
+// validaciones ternarias
+? "alguna data" : "data secondaria"
+
+if else
